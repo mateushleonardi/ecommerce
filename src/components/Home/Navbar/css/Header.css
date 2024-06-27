@@ -1,0 +1,27 @@
+.Header-left{
+    display: flex;
+    align-items: left;
+    gap: 17px;
+} 
+
+.click{
+    cursor: pointer;
+}
+
+.click:hover{
+    font-size: 27px;
+    transition: 1s;
+    color: #FF914D;
+}
+
+.Header-right{
+    display: flex;
+    align-items: end;
+} 
+
+.Header{
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    background-color:#181818;
+}
